@@ -1,0 +1,271 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+/*
+FONTS
+font-family: 'Caveat', cursive;
+font-family: 'Comfortaa', cursive
+*/
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+/*--------------------------------HEAD SECTION---------------------------------*/
+.nav-item {
+  padding-right: 50px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d2c8c8;
+}
+
+.sign {
+  padding:15px 0 0;
+  margin: 0;
+  text-align: right;
+}
+
+.hello-user {
+  text-align: right;
+  padding: 0;
+  font-size: 30px;
+  margin: 0;
+}
+
+.log-form {
+  text-align: right;
+}
+
+.log-butt {
+  color: white;
+  font-size: 20px;
+}
+
+.log-butt:hover {
+  color: #d2c8c8;
+  text-decoration: none;
+}
+
+.sign-link {
+  padding: 15px 15px 0;
+  font-family: 'Comfortaa', cursive;
+  color:#fff;
+}
+
+.sign-link:hover {
+  color: #5d3a3a;
+}
+
+#header {
+  background-image: url("header-background.jpg");
+  height: 400px;
+  color: #fff;
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+hr {
+  border-color: #fff;
+}
+
+.header-title {
+  font-size: 25px;
+  margin:0;
+  padding-left: 80px;
+}
+
+
+/*------------------------------------ABOUT SECTION----------------------------*/
+#about {
+  background-color: #f8f1f1;
+  color: #5d3a3a;
+}
+
+h3 {
+  margin-top: 3%;
+}
+
+.fa-2x {
+  margin-top: 10%;
+}
+
+.fa-2x:hover {
+  color: #d2c8c8;
+}
+
+.about-info {
+  margin-bottom: 15%;
+}
+
+/*--------------------------------------MAIN SECTION---------------------------*/
+#main-section {
+  margin: 3% 0 3%;
+}
+
+.date {
+  text-align: right;
+  padding: 15px 45px 0 0;
+}
+
+.notes {
+  background-color: #f8f1f1;
+  height: 40%;
+  margin-top: 3%;
+}
+
+.coments {
+  background-color: #f8f1f1;
+  height: 40%;
+  margin-top: 3%;
+  text-align: left;
+  padding: 15px;
+}
+
+.coment-user-info {
+  background-color: #fff;
+  border: 1px solid #b7fbff;
+}
+
+.coment {
+  border: 1px solid #b7fbff;
+  background-color: #eeeeee;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: inline;
+}
+
+.coment-text {
+  padding: 15px 0 0 15px;
+}
+
+.write-coment {
+  padding-top: 25px;
+}
+
+.btn-primary {
+  margin: 15px 0 15px 15px;
+}
+
+.note-title, .note-text {
+  padding-top: 40px
+}
+
+.note-text {
+  padding: 30px 100px 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.errors {
+  background-color: #fe5f55;
+  margin-top: 15px;
+}
+
+.error-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.costs {
+  margin-top: 25px;
+}
+
+/*--------------------------------------CONTACT SECTION------------------------*/
+#contact {
+  margin: 4% 0 4%;
+}
+
+.contacts {
+  text-align: center;
+  /* padding-bottom: 5px; */
+}
+
+.fab {
+  padding-bottom: 15px;
+}
+
+.fa-3x {
+  color: #5d3a3a;
+}
+
+/*--------------------------------------FOOTER---------------------------------*/
+#footer {
+  margin-top: 20px;
+}
+
+.copyright {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+/*--------------------------------------FOOTER---------------------------------*/
+
+.notes-add {
+  background-color: #f8f1f1;
+  margin-top: 3%;
+}
+
+.add-post {
+  padding: 2% 2% 2%;
+}
+
+.adding {
+  padding: 0 40px 0;
+}
+
+.adding-text {
+  padding: 0 40px 20px;
+}
+
+.post {
+  background-color: #d2c8c8;
+  margin-left: 80%;
+  margin-bottom: 15px;
+  padding: 10px 25px 10px;
+}
+
+/*d2c8c8 - alter botton's color*/
+
+.update {
+  background-color: #d2c8c8;
+  margin-left: 54%;
+  margin-bottom: 15px;
+  padding: 10px 25px 10px;
+}
+
+
+
+/*--------------------------------------MEDIA----------------------------------*/
+
+@media (max-width: 1281px) {
+  .update {
+    margin-left: 58%;
+  }
+}
